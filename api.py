@@ -13,7 +13,7 @@ def offenseiveScore(individual, team, comp):
         "unknownScoreAverage":0,
         "plusMinus": 0
     }
-    r = requests.get("https://www.thebluealliance.com/api/v3/team/"+team+"/event/"+comp+"/matches", headers={'X-TBA-Auth-Key': 'Zsss576vw4WjfhQB8wmoIrX1I9V7c7z8wD36YSll1tsfYFA7JdcZSZ4iJjHKDi0P'})
+    r = requests.get("https://www.thebluealliance.com/api/v3/team/"+team+"/event/"+comp+"/matches", headers={'X-TBA-Auth-Key': ''})
     a = r.json()
     # Initializing variables
     # number of matches in which the team climbed
